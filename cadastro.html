@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://kit.fontawesome.com/a67b6a5740.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="imagens/logo.png" alt="logo maçã">
+            </div>
+            <div class="botaoCasd">
+                <button class="botao" id="button">Cadastra-se</button>
+                <button class="botaotenhoCas" id="button">Já tenho Cadastro</button>
+            </div>
+          </header>
+           <section>
+               <div class="login">
+                  <form  method="POST">
+                    <input class="inputCor" type="text" name="nome" id="nome" placeholder="    Seu nome">
+                    <i class="far fa-user"></i>
+                    <input type="tel" name="tel" id="tel" placeholder="    Seu numero de celular">
+                    <i class=" cel fas fa-mobile-alt"></i>
+                    <input type="email" name="email" id="email" placeholder="    Seu e-mail">
+                    <i class=" envelope far fa-envelope"></i>
+                    <input type="password" name="senha" id="senha" pattern="[a-zA-Z0-9]{6}" placeholder="    Digite uma senha forte">
+                    <i class=" usuario1 fas fa-lock"></i>
+                    <input type="password" name="senhaNova" id="senhaNova" placeholder="    Digite sua senha novamente"><br>
+                    <i class=" usuario2 fas fa-lock"></i>
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="termo" id="check1">
+                    <label class="form-check-label" for="check1">Declaro que li e concordo com os <a href="#">termos de uso</a>,e a <a href="#">politica de privacidade</a></label>
+                </div>
+                    <button class="bEntrar" id="button">Finalizar Cadastro</button>
+                    <button class="bCarregar" id="button">O</button>
+                </div>
+            </form>
+          </section> 
+    <script src="script.js"></script> 
+    
+</body>
+</html>
